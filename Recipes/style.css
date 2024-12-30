@@ -1,10 +1,17 @@
+@font-face {
+    font-family: Librecarlson;
+    src: url("./Fonts/LibreCaslonText-Regular.ttf");
+}
+
 .site-container {
     display: flex;
     gap: 40px;
+    max-width: fit-content;
 }
 
 .left-section {
-    flex: 1.5;
+    flex: 3;
+    height: 45%;
 }
 
 .right-section {
@@ -21,5 +28,5 @@
 }
 
 .text-content {
-    font-family: serif;
+    font-family: "Librecarlson",serif;
 }
