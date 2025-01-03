@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Librecarlson;
+    src: url("../Fonts/LibreCaslonText-Regular.ttf");
+}
+
+* {
+    border: 0.5px solid red;
+
+}
+
+.card { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 6px;
+
+}
+
+.textcontent {
+    display: flex;
+}
