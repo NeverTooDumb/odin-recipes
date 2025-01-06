@@ -4,20 +4,47 @@
 }
 
 * {
-    border: 0.5px solid red;
+    /* border: 0.5px solid red; */
+    width: 100%
+}
 
+.container {
+    width: 100%;
 }
 
 .card { 
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: bisque;
+    text-align: center;
+    font-size: xx-large;
     margin: 10px;
-    border-radius: 6px;
-
+    margin-bottom: -150px;
+    border-radius: 20px;
+    height: 200px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: 20px;  
+    transition: transform 0.3s ease;
+    position: relative;
 }
 
-.textcontent {
-    display: flex;
+#card1 { 
+    background-color: rgb(146,58,20);
+    z-index: 1;
+}
+#card2 { 
+    background-color: rgb(223 196 162);
+    z-index: 2;
+}
+#card3 { 
+    background-color: rgb(211,86,11); 
+    z-index: 3;
+}
+#card4 { 
+    background-color: rgb(192,53,58);
+    z-index: 4;
+}
+
+.card:hover {
+    transform: translateY(-6px); 
 }
